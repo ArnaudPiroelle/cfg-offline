@@ -1,0 +1,66 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+    background-color: #e4dc94;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin: 8px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_wrapper {
+    position: relative;
+    max-width: 1280px;
+    aspect-ratio: 16/9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    width: auto;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    display: inline-block;
+    zoom:1;
+    *display:inline;
+}
+
+.link {
+    width: 33%;
+    margin: auto;
+    font-size: 28px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
